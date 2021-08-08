@@ -235,11 +235,11 @@ footer {
 }
 
 /* about page */
-/* main values section */
 .about-section-panel {
   background: url("../img/cleaning-your-fruits-and-vegetables-naturally-featured-i.png");
 }
 
+/* main values section */
 .main-value-card {
   background: #f2f0eb;
   border-radius: 15px;
@@ -291,4 +291,128 @@ footer {
   font-size: 18px;
   width: 150px;
   opacity: 0.9;
+}
+
+/* product page */
+.product-section-panel {
+  background: url("../img/slide-survey.png");
+}
+
+.product-section {
+  margin-top: 100px;
+}
+
+.product-section .filter-button-group {
+  margin-bottom: 50px;
+}
+
+.product-section .filter-btn {
+  border: 1px solid #58732f;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  font-size: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #58732f;
+}
+
+.product-section .filter-btn:hover {
+  background: #58732f;
+  color: white;
+}
+
+.product-section .custom-select {
+  border: 1px solid #58732f;
+  color: #58732f;
+  font-size: 22px;
+}
+
+.product-section .custom-card {
+  border-radius: 10px;
+  color: #58732f;
+  margin-bottom: 60px;
+}
+
+.product-section .custom-card .product-name {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.product-section .custom-card .product-price {
+  font-size: 20px;
+}
+
+.product-section .custom-card .product-image {
+  position: relative;
+  vertical-align: top;
+}
+
+.product-section .custom-card .product-image img {
+  height: 284px;
+  width: 270px;
+}
+
+.product-section .custom-card .product-image:after {
+  content: "\A";
+  position: absolute;
+  border-radius: 10px;
+  height: 284px;
+  width: 270px;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.product-section .custom-card .product-image:hover:after {
+  opacity: 1;
+}
+
+.product-section .custom-card .shopping-group-btn {
+  position: absolute;
+  top: 32%;
+  left: 46%;
+  z-index: 3;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  opacity: 0;
+}
+
+.product-section .custom-card .shopping-group-btn i {
+  color: white;
+  font-size: 30px;
+}
+
+.product-section .custom-card .shopping-group-btn i:hover {
+  cursor: pointer;
+}
+
+.product-image:hover .shopping-group-btn {
+  opacity: 1;
+}
+
+.product-section .pagination-wrp .page-link {
+  color: black;
+  background: #f2f0eb;
+  border: 1px solid #58732f;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+
+.product-section .pagination-wrp .page-link i {
+  font-size: 14px;
+}
+
+.product-section .pagination-wrp .page-link:hover {
+  background: rgba(88, 115, 47, 0.8);
+  color: white;
+}
+
+.product-section .pagination-wrp .info {
+  font-size: 24px;
+  color: #58732f;
 }
