@@ -183,3 +183,7 @@ footer{ background: url("../img/bg-footer.jpg") no-repeat center top ;  min-heig
 .rounded-medium {
 	border-radius: 10px;
 }
+
+.btn-gray {
+	background: #F2F0EB;
+}
