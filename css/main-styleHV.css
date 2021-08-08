@@ -416,3 +416,130 @@ footer {
   font-size: 24px;
   color: #58732f;
 }
+
+/* user manual page */
+.user-manual-panel {
+  background: url("../img/user-manual.png");
+}
+
+.user-manual-panel .panel-container {
+  padding-bottom: 90px;
+}
+
+.user-manual-section .custom-card {
+  position: relative;
+  height: 400px;
+}
+
+.user-manual-section .custom-card img {
+  width: 269px;
+  height: 272px;
+}
+
+.user-manual-section .custom-card .title {
+  font-size: 24px;
+}
+
+.user-manual-section .custom-card span {
+  position: absolute;
+  right: -6px;
+  top: 28%;
+  font-size: 34px;
+}
+
+.user-manual-section .content-wrp {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+
+.user-manual-section .content {
+  background: #58732f;
+  border-radius: 20px;
+  color: white;
+  font-size: 24px;
+  width: 90%;
+  height: 340px;
+  padding-left: 52px;
+}
+
+.user-manual-section .content-shadow {
+  content: "";
+  background: rgba(242, 240, 235, 0.8);
+  border-radius: 20px;
+  height: 340px;
+  width: 90%;
+  position: absolute;
+  top: 14%;
+  right: 0;
+  z-index: -1;
+}
+
+.faq-section .custom-collapsible {
+  border-radius: 10px;
+  border: 1px solid #58732f;
+}
+
+.faq-section .line {
+  width: 1px;
+  content: "";
+  background: #58732f;
+  position: relative;
+}
+
+.faq-section .line .square {
+  height: 30px;
+  width: 30px;
+  background-color: #58732f;
+  border-radius: 5px;
+}
+.faq-section .line .square.start {
+  position: absolute;
+  top: 0;
+  left: -14px;
+}
+
+.faq-section .line .square.end {
+  position: absolute;
+  bottom: 0;
+  left: -14px;
+}
+
+.faq-section .custom-collapsible .card {
+  border-radius: 10px;
+  background: white;
+}
+
+.faq-section .custom-collapsible .card-header {
+  background: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.faq-section .custom-collapsible .card-header h2 {
+  font-family: "Darker Grotesque", sans-serif !important;
+  font-size: 24px;
+}
+
+.faq-section .custom-collapsible .card-body {
+  background: white;
+  border-top: none;
+  color: #4e4e4e;
+  font-size: 18px;
+}
+
+.faq-section .custom-collapsible .custom-header button {
+  color: black;
+  width: 100%;
+}
+
+.faq-section .custom-collapsible .custom-header button div {
+  font-size: 22px;
+}
+
+.faq-section .custom-collapsible .custom-header i {
+  font-size: 20px;
+}
+
+.faq-section .custom-collapsible .custom-header .collapsed i {
+  transform: rotate(-180deg);
+}
