@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Darker+Grotesque&display=swap');
+body{font-family: 'Darker Grotesque', sans-serif; font-size: 18px}
+h1,h2,h3{font-family: 'Charm', cursive;}
+main{ min-height: 500px}
+
+
+.carousel-caption{ position: absolute; top: 100px; left: 40%; width: 40%; height: 50%; text-align: left; padding: 20px; font-size: 1.3rem}
+.dropdown-menu{ border: 1px solid #fff}
+.dropdown-item{ color: #fff; font-size: 1.2rem}
+.carousel-caption h1{ font-size: 4rem}
+.carousel-caption .btn{ font-size: 1.5rem; text-transform: uppercase; padding: 5px 20px}
+@media (max-width:1200px){
+	.carousel-caption{ top: 30px; width: 60%; left: 30%}
+	.carousel-caption .btn{ font-size: 1rem}
+	.carousel-caption h1{ font-size: 3.5rem}
+}
+@media (max-width:997px){
+	
+	.carousel-caption h1{ font-size: 3rem}
+}
+
+@media (max-width:768px){
+.carousel-caption{ top: 0px; width: 70%; left: 15%; font-size: 1rem; text-align: center}
+.carousel-caption h1{ font-size: 1.5rem}
+.carousel-caption .btn{ font-size: .8rem}
+	.product-card {
+		margin-bottom: 180px;
+	}
+}
+@media (max-width:500px){
+.carousel-caption{ top: 15px; width: 95%; left: 5%; font-size: 1rem; text-align: center}
+	.carousel-caption p{ display: none}
+	.carousel-caption h1{ font-size: 1.5rem}
+	.carousel-caption .btn{ font-size: .8rem}
+
+	.product-card {
+		margin-bottom: 180px;
+	}
+}
+
+footer{ background: url("../img/bg-footer.jpg") no-repeat center top ;  min-height: 700px; padding: 100px 0; background-size: 100% 100%}
+
+.bg-green { background: #58732F }
+.text-green { color: #58732F }
+.rounded { border-radius: 6px; }
+.rounded-big { border-radius: 20px; }
+
+.product-card-content {
+	border: 2px solid white;
+	width: 80%;
+	top: 100%;
+	margin-top: -25px;
+	left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.product-card {
+	margin-bottom: 180px;
+}
+
+.font-weight-semibold {
+	font-weight: 550;
+}
+
+.circle-bg {
+	width: 232px;
+	height: 232px;
+}
+
+.circle-bg > img {
+	width: 60%;
+}
+
+.icon-text {
+	font-size: 25px;
+}
+
+.left-quote {
+	width: 90%;
+	float: left;
+}
+
+.right-quote {
+	width: 90%;
+	float: right;
+}
+
+.left-comma {
+	font-size: 65px;
+	left: 20px;
+	top: -15px;
+}
+
+.right-comma {
+	font-size: 65px;
+	right: 20px;
+	top: -25px;
+	transform: rotate(180deg);
+}
+
+.left-quote-bg {
+	background: #c4c4c4;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	left: 20px;
+	bottom: -20px;
+}
+
+.right-quote-bg {
+	background: #c4c4c4;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	left: -20px;
+	bottom: -20px;
+}
