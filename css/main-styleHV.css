@@ -543,3 +543,53 @@ footer {
 .faq-section .custom-collapsible .custom-header .collapsed i {
   transform: rotate(-180deg);
 }
+
+/* contact page */
+.contact-panel {
+  background: url("../img/contact.png");
+}
+
+.contact-panel .panel-container {
+  padding-bottom: 90px;
+}
+
+.contact-form-section {
+  margin-top: 140px;
+}
+
+.contact-form-section h3 {
+  color: #58732f;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.contact-form-section .contact-form input,
+.contact-form-section .contact-form textarea {
+  border: 1px solid #58732f;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #58732f;
+}
+
+.contact-form-section .contact-form button {
+  color: white;
+  text-transform: uppercase;
+  width: 140px;
+  background: #58732f;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.contact-info-section {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.contact-info-section .title {
+  color: #58732f;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
