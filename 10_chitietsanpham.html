@@ -52,12 +52,12 @@
     <div class="container bg-green p-5 mt-5">
         <div class="row">
             <div class="col-12 col-md-6 mb-3">
-                <img src="img/sp1.png" class="w-100" />
+                <img src="img/sp1.png" class="w-100 hinhanh-active" />
                 <div class="d-flex mt-4">
-                    <img src="img/sp1 2.png" class="mr-2" style="width: 20%" alt="">
-                    <img src="img/sp2.png" class="mr-2" style="width: 20%" alt="">
-                    <img src="img/sp3.png" class="mr-2" style="width: 20%" alt="">
-                    <img src="img/sp4.png" class="mr-2" style="width: 20%" alt="">
+                    <a href="#" class="mr-2 hinhanh-btn" style="width: 20%"><img src="img/sp1 2.png" class="w-100" alt=""></a>
+                    <a href="#" class="mr-2 hinhanh-btn" style="width: 20%"><img src="img/sp2.png" class="w-100" alt=""></a>
+                    <a href="#" class="mr-2 hinhanh-btn" style="width: 20%"><img src="img/sp3.png" class="w-100" alt=""></a>
+                    <a href="#" class="mr-2 hinhanh-btn" style="width: 20%"><img src="img/sp4.png" class="w-100" alt=""></a>
                 </div>
             </div>
             <div class="col-12 col-md-6 text-white">
@@ -108,29 +108,63 @@
     </div>
 
     <div class="container mt-5 pt-5 px-3 p-md-0">
-        <button class="btn btn-gray green-text font-weight-bold rounded">CHI TIẾT SẢN PHẨM</button>
-        <button class="btn bg-green text-white font-weight-bold rounded">MUA Ở ĐÂU</button>
-        <button class="btn bg-green text-white font-weight-bold rounded">BÌNH LUẬN KHÁCH HÀNG</button>
+        <button data-tab="#tab1" class="tab-btn btn bg-green text-white font-weight-bold rounded">CHI TIẾT SẢN PHẨM</button>
+        <button data-tab="#tab2" class="tab-btn btn btn-gray font-weight-bold rounded">MUA Ở ĐÂU</button>
+        <button data-tab="#tab3" class="tab-btn btn btn-gray font-weight-bold rounded">BÌNH LUẬN KHÁCH HÀNG</button>
 
-        <div class="w-100 mt-3">
-            <h4>
-                <strong class="text-green">Xuất xứ</strong>
-            </h4>
-            <p>
-                Hiện tại Organic Foods đang trồng rất nhiều loại dâu khác nhau như dâu Pháp , dâu Nhật, Mỹ, New Zealand
-                và giống dâu đá, dâu hương truyền thống của Đà Lạt.
-            </p>
+        <div id="tab1" class="tab-content d-block">
+            <div class="w-100 mt-3">
+                <h4>
+                    <strong class="text-green">Xuất xứ</strong>
+                </h4>
+                <p>
+                    Hiện tại Organic Foods đang trồng rất nhiều loại dâu khác nhau như dâu Pháp , dâu Nhật, Mỹ, New Zealand
+                    và giống dâu đá, dâu hương truyền thống của Đà Lạt.
+                </p>
+            </div>
+            <div class="w-100 mt-3">
+                <h4>
+                    <strong class="text-green">Công dụng</strong>
+                </h4>
+                <p>
+                    Quả dâu tây là một loại trái cây khi chín có màu đỏ, khi ăn có vị chua chua, ngọt ngọt rất lôi cuốn. Và
+                    thành phần dinh dưỡng gồm cá vitamin và khoáng chất như C, K, folate, kali, magie. Chúng có hàm lượng
+                    calo thấp, giàu chất xơ và chất oxi hóa. Một cốc sinh tố dâu tây trung bình cung cấp 49 calo, 3g chất xơ
+                    và 12g carbohydrate.
+                </p>
+            </div>
         </div>
-        <div class="w-100 mt-3">
-            <h4>
-                <strong class="text-green">Công dụng</strong>
-            </h4>
-            <p>
-                Quả dâu tây là một loại trái cây khi chín có màu đỏ, khi ăn có vị chua chua, ngọt ngọt rất lôi cuốn. Và
-                thành phần dinh dưỡng gồm cá vitamin và khoáng chất như C, K, folate, kali, magie. Chúng có hàm lượng
-                calo thấp, giàu chất xơ và chất oxi hóa. Một cốc sinh tố dâu tây trung bình cung cấp 49 calo, 3g chất xơ
-                và 12g carbohydrate.
-            </p>
+
+        <div id="tab2" class="tab-content d-none">
+            <div class="w-100 mt-3">
+                <h4>
+                    <strong class="text-green">Mua ở đâu</strong>
+                </h4>
+                <p>
+                    Mua ở TPHCM
+                </p>
+            </div>
+        </div>
+
+        <div id="tab3" class="tab-content d-none">
+            <div class="w-100 mt-3">
+                <h4>
+                    <strong class="text-green">Bình luận khách hàng</strong>
+                </h4>
+                <ul>
+                    <li>
+                        <p>Sản phẩm chất lượng</p>
+                    </li>
+
+                    <li>
+                        <p>Dâu rất ngon</p>
+                    </li>
+
+                    <li>
+                        <p>Có ship không ạ ?</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -175,4 +209,20 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.3.1.js"></script>
+    <script>
+        $( document ).ready(function() {
+            $(".tab-btn").on('click', function() {
+                $('.tab-content').removeClass("d-block").addClass("d-none");
+                $('.tab-btn').removeClass("bg-green text-white").addClass("btn-gray");
+                var id = $(this).data("tab");
+                $(id).removeClass("d-none").addClass("d-block");
+                $(this).removeClass("btn-gray").addClass("bg-green text-white");
+            })
+
+            $(".hinhanh-btn").on('click', function() {
+                var srcHinhAnh = $(this).find('img').attr('src');
+                $(".hinhanh-active").attr('src', srcHinhAnh);
+            })
+        });        
+    </script>
 </body>
