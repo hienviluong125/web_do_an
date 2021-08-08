@@ -17,7 +17,7 @@ main{ min-height: 500px}
 	.carousel-caption h1{ font-size: 3.5rem}
 }
 @media (max-width:997px){
-	
+
 	.carousel-caption h1{ font-size: 3rem}
 }
 
@@ -154,4 +154,32 @@ footer{ background: url("../img/bg-footer.jpg") no-repeat center top ;  min-heig
 	border: 1px solid #58732F;
 	background: #F2F0EB;
 	color: #58732F;
+}
+
+.banner-giohang {
+	background-image: url("../img/banner_giohang.png");
+	height: 323px;
+	width: 100%;
+}
+
+.giohang-header {
+	border: 1px solid #58732F;
+}
+
+.giohang-container {
+	border: 1px solid #58732F;
+}
+
+.green-border {
+	border: 1px solid #58732F;
+}
+
+.banner-dangnhap {
+	background-image: url("../img/banner_dangnhap.png");
+	height: 323px;
+	width: 100%;
+}
+
+.rounded-medium {
+	border-radius: 10px;
 }
