@@ -18,36 +18,46 @@
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-        aria-controls="navbarSupportedContent1"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active"> <a class="nav-link" href="#">Trang chủ<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Giới thiệu</a> </li>
-          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sản
-              phẩm</a>
-            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown1">
-              <a class="dropdown-item" href="#">Rau củ tươi Organic</a>
-              <a class="dropdown-item" href="#">Trái cây sạch organic</a>
-              <a class="dropdown-item" href="#">Các Loại Hạt, Ngũ Cốc</a>
-              <a class="dropdown-item" href="#">Thịt sạch an toàn</a>
-            </div>
-          </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Blog</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Hướng dẫn mua hàng</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Liên hệ</a> </li>
-        </ul>
-        <div class="navbar-text">
-          <span class="fa fa-user-circle fa-lg"></span>
-          <span class="fa fa-shopping-cart fa-lg mx-2"></span>
-          <span class="fa fa-search fa-lg mx-2"></span>
-        </div>
-      </div>
-    </div>
-  </nav>
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+				aria-controls="navbarSupportedContent1"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active"> <a class="nav-link" href="./1_trangchu.html">Trang chủ<span
+								class="sr-only">(current)</span></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="./2_gioithieu.html">Giới thiệu</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="./3_sanpham.html" id="navbarDropdown1"
+							role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sản
+							phẩm</a>
+						<div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown1">
+							<a class="dropdown-item" href="./3_sanpham.html">Rau củ tươi Organic</a>
+							<a class="dropdown-item" href="./3_sanpham.html">Trái cây sạch organic</a>
+							<a class="dropdown-item" href="./3_sanpham.html">Các Loại Hạt, Ngũ Cốc</a>
+							<a class="dropdown-item" href="./3_sanpham.html">Thịt sạch an toàn</a>
+						</div>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="./4_blog.html">Blog</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="./5_huongdanmuahang.html">Hướng dẫn mua hàng</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="./6_lienhe.html">Liên hệ</a> </li>
+				</ul>
+				<div class="navbar-text">
+					<!-- Button trigger modal -->
+					<a href="#loginModal" class="text-decoration-none" data-toggle="modal" data-target="#loginModal">
+						<span class="fa fa-user-circle fa-lg"></span>
+					</a>
+
+					<a href="./7_giohang.html" class="text-decoration-none">
+						<span class="fa fa-shopping-cart fa-lg mx-2"></span>
+					</a>					
+
+					<a href="#searchModal" class="text-decoration-none" data-toggle="modal" data-target="#searchModal">
+						<span class="fa fa-search fa-lg mx-2"></span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+	</nav>
 
   <main class="product-page">
     <section class="panel-wrp product-section-panel">
@@ -87,134 +97,134 @@
       <div class="row">
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/dua.jpg" alt="dua">
+            <a href="./10_chitietsanpham.html"><img src="img/dua.jpg" alt="dua"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">dưa leo</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">dưa leo</a>
           <div class="product-price font-weight-bold text-center">20.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/suplo.jpg" alt="suplo">
+            <a href="./10_chitietsanpham.html"><img src="img/suplo.jpg" alt="suplo"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">súp lơ</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">súp lơ</a>
           <div class="product-price font-weight-bold text-center">50.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/dau leo.jpg" alt="dau leo">
+            <a href="./10_chitietsanpham.html"><img src="img/dau leo.jpg" alt="dau leo"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">đậu leo</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">đậu leo</a>
           <div class="product-price font-weight-bold text-center">30.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/khoaitay.jpg" alt="khoaitay">
+            <a href="./10_chitietsanpham.html"><img src="img/khoaitay.jpg" alt="khoaitay"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">khoai tây</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">khoai tây</a>
           <div class="product-price font-weight-bold text-center">70.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/khoailang.jpg" alt="khoailang">
+            <a href="./10_chitietsanpham.html"><img src="img/khoailang.jpg" alt="khoailang"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">khoai lang</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">khoai lang</a>
           <div class="product-price font-weight-bold text-center">50.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/cachua.jpg" alt="cachua">
+            <a href="./10_chitietsanpham.html"><img src="img/cachua.jpg" alt="cachua"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">cà chua</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">cà chua</a>
           <div class="product-price font-weight-bold text-center">20.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/otchuong.jpg" alt="otchuong">
+            <a href="./10_chitietsanpham.html"><img src="img/otchuong.jpg" alt="otchuong"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">ớt chuông</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">ớt chuông</a>
           <div class="product-price font-weight-bold text-center">70.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/ot.jpg" alt="ot">
+            <a href="./10_chitietsanpham.html"><img src="img/ot.jpg" alt="ot"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">ớt</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">ớt</a>
           <div class="product-price font-weight-bold text-center">20.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/hanhtim.jpg" alt="hanhtim">
+            <a href="./10_chitietsanpham.html"><img src="img/hanhtim.jpg" alt="hanhtim"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">hành tím</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">hành tím</a>
           <div class="product-price font-weight-bold text-center">20.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/hanhla.jpg" alt="hanhla">
+            <a href="./10_chitietsanpham.html"><img src="img/hanhla.jpg" alt="hanhla"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">hành lá</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">hành lá</a>
           <div class="product-price font-weight-bold text-center">20.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/nam.jpg" alt="nam">
+            <a href="./10_chitietsanpham.html"><img src="img/nam.jpg" alt="nam"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">nấm</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">nấm</a>
           <div class="product-price font-weight-bold text-center">60.000 VND</div>
         </div>
         <div class="col-3 custom-card d-flex flex-column align-items-center">
           <div class="product-image">
-            <img src="img/cucaitim.jpg" alt="cucaitim">
+            <a href="./10_chitietsanpham.html"><img src="img/cucaitim.jpg" alt="cucaitim"></a>
             <div class="shopping-group-btn d-flex flex-column">
-              <i class="fa fa-shopping-cart my-2" aria-hidden="true"></i>
+              <a href="./7_giohang.html"><i class="fa fa-shopping-cart my-2" aria-hidden="true"></i></a>
               <i class="fa fa-heart my-2" aria-hidden="true"></i>
             </div>
           </div>
-          <div class="product-name">của cải tím</div>
+          <a href="./10_chitietsanpham.html" class="text-dark text-decoration-none product-name">của cải tím</a>
           <div class="product-price font-weight-bold text-center">40.000 VND</div>
         </div>
       </div>
@@ -282,7 +292,123 @@
       </div>
     </div>
   </footer>
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap-4.3.1.js"></script>
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Đăng nhập</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+								else.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+						<div>
+							<a href="#signupModal" id="signupButton" class="text-decoration-none" data-toggle="modal" data-target="#signupModal">
+								HÃY ĐĂNG KÝ
+							</a>
+						</div>
+						<button type="submit" class="mt-3 btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Đăng ký tài khoản</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputtext1">Name</label>
+							<input type="text" class="form-control" id="exampleInputtext1"
+								aria-describedby="textHelp" placeholder="Enter name">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<div class="form-group">
+							<label for="confirmPassword">Confirm Password</label>
+							<input type="password" class="form-control" id="confirmPassword"
+								placeholder="Password">
+						</div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">I Agree with Term and Conditions of the service</label>
+						</div>
+						<button type="submit" class="btn btn-primary">Sign uo</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Tìm kiếm</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="form-inline">
+						<div class="form-group w-75 px-2">
+						  <input type="text" class="form-control w-100" placeholder="Search here">
+						</div>
+						<button type="submit" class="mt-2 btn btn-primary mb-2 w-25">Search</button>
+					  </form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				  </div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
+
+	<script>
+        $( document ).ready(function() {
+			$('#signupButton').on('click', function() {
+				$('#loginModal').modal('hide');
+			})
+		});
+	</script>
 </body>

@@ -18,36 +18,46 @@
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-        aria-controls="navbarSupportedContent1"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active"> <a class="nav-link" href="#">Trang chủ<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Giới thiệu</a> </li>
-          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sản
-              phẩm</a>
-            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown1">
-              <a class="dropdown-item" href="#">Rau củ tươi Organic</a>
-              <a class="dropdown-item" href="#">Trái cây sạch organic</a>
-              <a class="dropdown-item" href="#">Các Loại Hạt, Ngũ Cốc</a>
-              <a class="dropdown-item" href="#">Thịt sạch an toàn</a>
-            </div>
-          </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Blog</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Hướng dẫn mua hàng</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="#">Liên hệ</a> </li>
-        </ul>
-        <div class="navbar-text">
-          <span class="fa fa-user-circle fa-lg"></span>
-          <span class="fa fa-shopping-cart fa-lg mx-2"></span>
-          <span class="fa fa-search fa-lg mx-2"></span>
-        </div>
-      </div>
-    </div>
-  </nav>
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+				aria-controls="navbarSupportedContent1"> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active"> <a class="nav-link" href="./1_trangchu.html">Trang chủ<span
+								class="sr-only">(current)</span></a> </li>
+					<li class="nav-item"> <a class="nav-link" href="./2_gioithieu.html">Giới thiệu</a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="./3_sanpham.html" id="navbarDropdown1"
+							role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sản
+							phẩm</a>
+						<div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown1">
+							<a class="dropdown-item" href="./3_sanpham.html">Rau củ tươi Organic</a>
+							<a class="dropdown-item" href="./3_sanpham.html">Trái cây sạch organic</a>
+							<a class="dropdown-item" href="./3_sanpham.html">Các Loại Hạt, Ngũ Cốc</a>
+							<a class="dropdown-item" href="./3_sanpham.html">Thịt sạch an toàn</a>
+						</div>
+					</li>
+					<li class="nav-item"> <a class="nav-link" href="./4_blog.html">Blog</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="./5_huongdanmuahang.html">Hướng dẫn mua hàng</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="./6_lienhe.html">Liên hệ</a> </li>
+				</ul>
+				<div class="navbar-text">
+					<!-- Button trigger modal -->
+					<a href="#loginModal" class="text-decoration-none" data-toggle="modal" data-target="#loginModal">
+						<span class="fa fa-user-circle fa-lg"></span>
+					</a>
+
+					<a href="./7_giohang.html" class="text-decoration-none">
+						<span class="fa fa-shopping-cart fa-lg mx-2"></span>
+					</a>					
+
+					<a href="#searchModal" class="text-decoration-none" data-toggle="modal" data-target="#searchModal">
+						<span class="fa fa-search fa-lg mx-2"></span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+	</nav>
   <main class="about-page">
     <section class="panel-wrp about-section-panel">
       <div class="container panel-container">
@@ -179,45 +189,123 @@
 
   </main>
 
-  <footer class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mt-5 mt-md-5 text-white pt-3">
-          <h3>SAIGON ORGANIC FOOD</h3>
-          <p>Organic Food farm cam kết chất lượng an toàn vệ sinh thực phẩm và khẳng định như vậy. Điều đó
-            khẳng định sự tồn tại của chúng tôi. “Uy Tín” được Organic Food đặt lên hàng đầu, hợp tác, chia
-            sẻ, tin cậy, … gắn bó lâu dài. </p>
-        </div>
-        <div class="col-md-4 mt-2 mt-md-5 text-white pt-3">
-          <h3>Địa chỉ</h3>
-          <p>19/12K, Ấp Thới Tứ, Xã Thới Tam Thôn, Huyện Hóc Môn<br>
-            Phone: 0865 222 9868<br></p>
-          <p class="mb-0"><b>Open Time:</b> <br>
-          <div class="ml-4 my-0"> Thứ 2-6 : 8:00- 20:00<br>
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Đăng nhập</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+								else.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+						<div>
+							<a href="#signupModal" id="signupButton" class="text-decoration-none" data-toggle="modal" data-target="#signupModal">
+								HÃY ĐĂNG KÝ
+							</a>
+						</div>
+						<button type="submit" class="mt-3 btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-            Thứ 7-CN : 10:00-16:00. </div>
-          </p>
-        </div>
-        <div class="col-md-4 mt-2 mt-md-5  text-white pt-3">
-          <h3>Chi nhánh phân phối</h3>
-          <h5><strong> Tp Hồ Chí Minh:</strong></h5>
-          <p>19/12K, Ấp Thới Tứ, Xã Thới Tam Thôn, Huyện Hóc Môn</p>
-          <h5><strong> Tp Hà Nội:</strong></h5>
-          <p> A11, Ngõ 100, Đường Trung Kính, Phường Yên Hòa, Quận Cầu Giấy</p>
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Đăng ký tài khoản</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputtext1">Name</label>
+							<input type="text" class="form-control" id="exampleInputtext1"
+								aria-describedby="textHelp" placeholder="Enter name">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1"
+								aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1"
+								placeholder="Password">
+						</div>
+						<div class="form-group">
+							<label for="confirmPassword">Confirm Password</label>
+							<input type="password" class="form-control" id="confirmPassword"
+								placeholder="Password">
+						</div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">I Agree with Term and Conditions of the service</label>
+						</div>
+						<button type="submit" class="btn btn-primary">Sign uo</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Tìm kiếm</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="form-inline">
+						<div class="form-group w-75 px-2">
+						  <input type="text" class="form-control w-100" placeholder="Search here">
+						</div>
+						<button type="submit" class="mt-2 btn btn-primary mb-2 w-25">Search</button>
+					  </form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				  </div>
+			</div>
+		</div>
+	</div>
 
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.3.1.js"></script>
 
-        </div>
-      </div>
-      <div class="w-100">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.9072097266626!2d106.60590395010797!3d10.894656259941895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d5ed041907b7%3A0xafdae36870a67434!2zOSwgMTJiIFThu5UgNDgg4bqlcCBUaOG7m2kgdOG7qSwgVGjhu5tpIFRhbSBUaMO0biwgSMOzYyBNw7RuLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1628332679214!5m2!1sen!2s"
-          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-      </div>
-    </div>
-  </footer>
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap-4.3.1.js"></script>
+	<script>
+        $( document ).ready(function() {
+			$('#signupButton').on('click', function() {
+				$('#loginModal').modal('hide');
+			})
+		});
+	</script>
 </body>
